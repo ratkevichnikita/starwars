@@ -1,0 +1,14 @@
+.cards-wrapper {
+    padding-top: 50px;
+}
+.cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+}
+.cards-item {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
